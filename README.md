@@ -115,10 +115,12 @@ private void BtnReportDirectly_Click(object sender, EventArgs e)
         $"This is a direct informational message.\n", ReportLevel.Information);
     taskReportControl1.ReportDirectProgress("Direct Update", 50, ReportLevel.StatusUpdate);
 }
+```
 
-2. Using TaskWrapper with StatusProgressDisplay or StatusProgressBar
+## 2. Using TaskWrapper with StatusProgressDisplay or StatusProgressBar
 (Example adapted from SimpleProgressForm02.cs and SimpleProgressForm03.cs)
 
+```csharp
 // In your Form (e.g., for StatusProgressDisplay):
 // private StatusProgressDisplay statusProgressDisplayControl;
 // private TaskWrapper _taskWrapper;
@@ -153,6 +155,7 @@ private void BtnStartTask_Click(object sender, EventArgs e)
 }
 
 // Remember to dispose _taskWrapper in FormClosing event
+```
 
 ## Building and Running the Demo
 Clone the repository https://github.com/goldarch/GoldArch.TaskWrapperReport.
