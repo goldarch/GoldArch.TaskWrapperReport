@@ -159,7 +159,9 @@ Clone the repository https://github.com/goldarch/GoldArch.TaskWrapperReport.
 Open the solution (likely GoldArch.TaskWrapperReport.sln or similar) in Visual Studio.
 Set GoldArch.TaskWrapper.Simple as the startup project.
 Build and run. The demo application will appear, allowing you to test various task reporting scenarios.
+
 ## Dependencies
 .NET Framework 4.5.2 (as specified in GoldArch.TaskWrapper.Simple/App.config and project files).
+
 ## License
 MIT
