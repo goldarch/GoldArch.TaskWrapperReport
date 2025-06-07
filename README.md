@@ -4,7 +4,7 @@ A .NET Windows Forms library for simplifying background task management with int
 
 ## Overview
 
-The `GoldArch.TaskWrapper` library (found within the `GoldArch.TaskWrapperReport` namespace structure in your code) provides a robust `TaskWrapper` class to execute asynchronous operations while offering fine-grained control over progress reporting, cancellation, state management, and error handling. It is complemented by a suite of custom UI controls designed to visualize task progress and logs effectively.
+The `GoldArch.TaskWrapper` library  provides a robust `TaskWrapper` class to execute asynchronous operations while offering fine-grained control over progress reporting, cancellation, state management, and error handling. It is complemented by a suite of custom UI controls designed to visualize task progress and logs effectively.
 
 The solution, as provided, includes:
 * **GoldArch.TaskWrapper (Class Library Components):** Contains the core `TaskWrapper` logic and reusable UI controls. These are organized within namespaces like `GoldArch.TaskWrapperReport.TaskWrapperCore`, `GoldArch.TaskWrapperReport.TaskReportControl`, and `GoldArch.TaskWrapperReport.Common`.
